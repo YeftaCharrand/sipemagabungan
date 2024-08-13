@@ -36,6 +36,4 @@ Route::middleware(['auth', 'dosen'])->group(function () {
 
 
 });
-
-
 require __DIR__ . '/auth.php';
